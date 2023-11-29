@@ -44,7 +44,7 @@ public class Controller32 {
         dao.insert3(dto);
 
         rttr.addFlashAttribute("message",
-                dto.getId()+ "번 직원이 등록되었습니다");
+                dto.getEid()+ "번 직원이 등록되었습니다");
 
         return "redirect:/main32/sub3";
     }

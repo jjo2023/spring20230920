@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class MyDto38 {
-    private Integer id;
+    private Integer eid;
     private String lastName;
     private String firstName;
 
